@@ -15,9 +15,19 @@ Results on CNN/DailyMail (2022.04.05):
 <strong>Python version</strong> : This code is in Python3.8 <br>
 <strong>PyTorch version</strong> : This code is in PyTorch 1.11.0 <br>
 
+<br>
+
 ## Note
 The only difference from the origin project is the `\src`. So, please make diretories as follows. 
 * `/bert_data`
 * `/models`
 * `/logs`
 * `/results`
+
+<br>
+
+## Example summary from BertSum models
+### CNN/DailyMail
+The input document and gold summary are randomly picked from CNN/DailyMail testset. The sentences in red are extracted by the BertSumExt, and the sentences in green are similar to the generated summary of BertSumAbs. 
+![CNNDM_요약문](https://user-images.githubusercontent.com/39071676/161654697-80133096-ffa2-4086-95b0-78b095ac026b.png)
+I find the summary of BertSumAbs tends to copy sentences from input documents. CNN/DailyMail dataset have extractive characteristics, so this phenomenon occurs when the abstractive model is fine-tuned with this dataset.
