@@ -18,7 +18,7 @@ Results on CNN/DailyMail (2022.04.05):
 <br>
 
 ## Note
-The only difference from the origin project is the `/src`. So, please make diretories as follows. 
+The only difference from the origin project is the `/src`. So, please make directories as follows. 
 * `/bert_data`
 * `/models`
 * `/logs`
