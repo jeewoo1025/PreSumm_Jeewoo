@@ -7,10 +7,19 @@ The origin project is [PreSumm](https://github.com/nlpyang/PreSumm). I modified 
 <br>
 
 Results on CNN/DailyMail (2022.04.05):
-|Models|ROUGE-1|ROUGE-2|ROUGE-3|
+|Models|ROUGE-1|ROUGE-2|ROUGE-L|
 |:---:|:---:|:---:|:---:|
 |BertSumExt|42.89|20.09|39.33|
 |BertSumAbs|41.23|18.86|38.27|
+
+<br>
+
+Results on XSum (2022.04.07):
+|Models|ROUGE-1|ROUGE-2|ROUGE-L|
+|:---:|:---:|:---:|:---:|
+|BertSumExt|21.74|4.27|16.99|
+
+<br>
 
 <strong>Python version</strong> : This code is in Python 3.8 <br>
 <strong>PyTorch version</strong> : This code is in PyTorch 1.11.0 <br>
